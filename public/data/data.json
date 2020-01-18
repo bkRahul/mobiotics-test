@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "brandName": "Anandham",
+    "productName": "Deepam Pooja Oil",
+    "quantity": "1l",
+    "price": "92",
+    "mrp": 120,
+    "img": "https://cdn.grofers.com/app/images/products/normal/pro_238044.jpg?ts=1558073691",
+    "offer": "23% OFF"
+  },
+  {
+    "id": 2,
+    "brandName": "SaveMore",
+    "productName": "Citrus Floor Cleaner",
+    "quantity": "Pack of 2",
+    "price": "119",
+    "mrp": "316",
+    "img": "https://cdn.grofers.com/app/images/products/normal/pro_401890.jpg?ts=1557754534",
+    "offer": "62% OFF"
+  },
+  {
+    "id": 3,
+    "brandName": "Colin",
+    "productName": "Colin 2x More Shine Glass Cleaner",
+    "quantity": "Buy 2 Get 1 Free",
+    "price": "178",
+    "mrp": "267",
+    "img": "https://cdn.grofers.com/app/images/products/normal/pro_403686.jpg?ts=1563168455",
+    "offer": "33% OFF"
+  }
+]

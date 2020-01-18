@@ -1,0 +1,23 @@
+.Button {
+    background-color: #65ce34;
+    border: none;
+    color: #000;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.Button:disabled {
+    color: slategray;
+    cursor: not-allowed;
+}
+
+.Rounded {
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    padding: 2px 10px 10px 10px;
+}

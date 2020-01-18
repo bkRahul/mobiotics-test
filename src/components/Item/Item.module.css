@@ -1,0 +1,14 @@
+.Img {
+    position: relative;
+}
+
+.Offer {
+    color: #fff;
+    padding: 4px;
+    position: absolute;
+    left: 0;
+    background-color: #51aa1b;
+    border-radius: 3px;
+    border: 1px solid #51aa1b;
+}
+
