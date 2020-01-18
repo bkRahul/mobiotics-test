@@ -1,17 +1,17 @@
 import React from "react";
 import classes from "./ItemDesc.module.css";
 
-const ItemDesc = () => {
+const ItemDesc = props => {
   return (
     <div className={classes.Container}>
-      <h3>Milk Food</h3>
-      <p>.Milk Fod Rich Milk</p>
-      <p>1l</p>
+      <h3>{props.bName}</h3>
+      <p>{props.pName}</p>
+      <p>{props.qty}</p>
       <p>
-        MRP <span>498</span>
+        MRP <span>{props.mrp}</span>
       </p>
       <p>
-        Rs. <span>300</span>
+        Rs. <span>{props.price}</span>
       </p>
     </div>
   );

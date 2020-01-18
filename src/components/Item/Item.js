@@ -1,22 +1,28 @@
 import React from "react";
 import { ItemControls } from "./ItemControls/ItemControls";
 import ItemDesc from "./ItemDesc/ItemDesc";
-import img from "../../assets/logo192.png";
-import classes from "./Item.module.css";
+import ItemImg from "./ItemImg/ItemImg";
 
-const Item = () => {
-  return (
-    <div className="d-flex">
-      <div className={classes.Img}>
-        <img src={img} />
-        <span className={classes.Offer}>18% OFF</span>
+const Item = props => {
+  let item = props.items.map(item => {
+    return (
+      <div className="d-flex">
+        <ItemImg img={item.img} offer={item.offer} />
+        <div>
+          <ItemDesc
+            bName={item.brandName}
+            pName={item.productName}
+            qty={item.quantity}
+            price={item.price}
+            mrp={item.mrp}
+          />
+          <ItemControls />
+        </div>
       </div>
-      <div>
-        <ItemDesc />
-        <ItemControls />
-      </div>
-    </div>
-  );
+    );
+  });
+
+  return <div className="d-flex df-col">{item}</div>;
 };
 
 export default Item;

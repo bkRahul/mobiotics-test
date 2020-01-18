@@ -4,8 +4,8 @@ import Button from '../../../Ui/Button/Button'
 const ItemQtyControl = () => {
     return (
         <div className="d-flex">
-            <Button btnType="Rounded">+</Button>
-            <Button btnType="Rounded">-</Button>
+            <Button btnType="Qty">+</Button>
+            <Button btnType="Qty">-</Button>
         </div>
     )
 }

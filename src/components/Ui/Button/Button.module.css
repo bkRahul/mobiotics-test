@@ -15,9 +15,13 @@
     cursor: not-allowed;
 }
 
-.Rounded {
+.Qty {
     border-radius: 50px;
     width: 30px;
     height: 30px;
     padding: 2px 10px 10px 10px;
+}
+
+.Cart {
+    border-radius: 4px;
 }

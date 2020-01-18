@@ -4,8 +4,8 @@ import ItemQtyControl from "./ItemQtyControl/ItemQtyControl";
 
 export const ItemControls = () => {
   return (
-    <div className="d-flex">
-      <Button>Add To Cart</Button>
+    <div className="d-flex df-wrap">
+      <Button btnType="Cart">Add To Cart</Button>
       <ItemQtyControl />
     </div>
   );

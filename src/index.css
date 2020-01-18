@@ -16,3 +16,11 @@ code {
  display: flex;
  align-items: center;
 }
+
+.df-col {
+  flex-direction: column;
+}
+
+.df-wrap {
+  flex-wrap: wrap;
+}

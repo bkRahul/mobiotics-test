@@ -1,6 +1,10 @@
-.Img {
+.ImgContainer {
     position: relative;
 }
+
+.Img {
+    width: 100%;
+} 
 
 .Offer {
     color: #fff;
