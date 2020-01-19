@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mobiotics-test/static/css/main.54eb7e57.chunk.css",
+    "main.css": "/mobiotics-test/static/css/main.45898cca.chunk.css",
     "main.js": "/mobiotics-test/static/js/main.fc5e1acf.chunk.js",
     "main.js.map": "/mobiotics-test/static/js/main.fc5e1acf.chunk.js.map",
     "runtime-main.js": "/mobiotics-test/static/js/runtime-main.5f030eb1.js",
@@ -8,15 +8,15 @@
     "static/js/2.214c3807.chunk.js": "/mobiotics-test/static/js/2.214c3807.chunk.js",
     "static/js/2.214c3807.chunk.js.map": "/mobiotics-test/static/js/2.214c3807.chunk.js.map",
     "index.html": "/mobiotics-test/index.html",
-    "precache-manifest.84f7d7735c6d51d98d4521d9d624904d.js": "/mobiotics-test/precache-manifest.84f7d7735c6d51d98d4521d9d624904d.js",
+    "precache-manifest.ce1a18d06d635ac487402ea71cd36430.js": "/mobiotics-test/precache-manifest.ce1a18d06d635ac487402ea71cd36430.js",
     "service-worker.js": "/mobiotics-test/service-worker.js",
-    "static/css/main.54eb7e57.chunk.css.map": "/mobiotics-test/static/css/main.54eb7e57.chunk.css.map",
+    "static/css/main.45898cca.chunk.css.map": "/mobiotics-test/static/css/main.45898cca.chunk.css.map",
     "static/js/2.214c3807.chunk.js.LICENSE": "/mobiotics-test/static/js/2.214c3807.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.5f030eb1.js",
     "static/js/2.214c3807.chunk.js",
-    "static/css/main.54eb7e57.chunk.css",
+    "static/css/main.45898cca.chunk.css",
     "static/js/main.fc5e1acf.chunk.js"
   ]
 }
