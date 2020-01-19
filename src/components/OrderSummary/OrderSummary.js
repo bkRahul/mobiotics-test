@@ -8,17 +8,34 @@ const OrderSummary = props => {
     textTransform: "uppercase"
   };
 
-  const itemsSummary = Object.keys(props.items).map(igKey => {
+const filteredItems = props.items.filter(item => {
+  return item.qty !== 0
+})
+
+  // const itemsSummary = Object.keys(props.items).map(igKey => {
+  //   return (
+  //     <div key={igKey} className="d-flex df-space-bet">
+  //       <div>
+  //         <b style={styles}>{props.items[igKey].brandName}</b>
+  //         <p>{props.items[igKey].productName}</p>
+  //       </div>
+  //       <div>: {props.items[igKey].qty}</div>
+  //     </div>
+  //   );
+  // });
+
+  const itemsSummary = filteredItems.map(item => {
     return (
-      <div key={igKey} className="d-flex df-space-bet">
+      <div key={item.id} className="d-flex df-space-bet">
         <div>
-          <b style={styles}>{props.items[igKey].brandName}</b>
-          <p>{props.items[igKey].productName}</p>
+          <b style={styles}>{item.brandName}</b>
+          <p>{item.productName}</p>
         </div>
-        <div>: {props.items[igKey].qty}</div>
+        <div>: {item.qty}</div>
       </div>
     );
   });
+
   return (
     <div className={classes.Container}>
       <h3 className="text-center">Your Order</h3>

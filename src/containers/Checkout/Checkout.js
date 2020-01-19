@@ -18,7 +18,7 @@ class Checkout extends Component {
               <div className={classes.White}>Total: {context.cartTotal}</div>
             </div>
         <div>
-          <Button btnType="Cart" clicked={context.checkout} >Checkout</Button>
+          <Button btnType="Cart" clicked={context.checkout} disabled={!context.cartQty} >Checkout</Button>
         </div>
         </React.Fragment>
          )}
