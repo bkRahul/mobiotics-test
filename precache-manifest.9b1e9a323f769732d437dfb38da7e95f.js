@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f559a7da2a1acd11c1276734f0f9642c",
+    "revision": "3ecbaff48fa02dcdb1a21f54babe3a51",
     "url": "/mobiotics-test/index.html"
   },
   {
-    "revision": "f72d823f8d22e8417bff",
+    "revision": "e28384df88605ab6f52c",
     "url": "/mobiotics-test/static/css/main.54eb7e57.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mobiotics-test/static/js/2.214c3807.chunk.js.LICENSE"
   },
   {
-    "revision": "f72d823f8d22e8417bff",
-    "url": "/mobiotics-test/static/js/main.909357bb.chunk.js"
+    "revision": "e28384df88605ab6f52c",
+    "url": "/mobiotics-test/static/js/main.f67300d8.chunk.js"
   },
   {
     "revision": "29b5a8fa4c7cd556205e",
