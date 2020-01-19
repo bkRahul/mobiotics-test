@@ -1,13 +1,15 @@
-import React from 'react'
-import Button from '../../../Ui/Button/Button'
+import React from "react";
+import Button from "../../../Ui/Button/Button";
 
-const ItemQtyControl = () => {
-    return (
-        <div className="d-flex">
-            <Button btnType="Qty">+</Button>
-            <Button btnType="Qty">-</Button>
-        </div>
-    )
-}
+const ItemQtyControl = props => {
+  return (
+    <div className="d-flex">
+      <Button btnType="Qty" clicked={props.removeItem}>-</Button>
+      <p>{props.qty}</p>
+      <Button btnType="Qty" clicked={props.addItem} >+</Button>
 
-export default ItemQtyControl
+    </div>
+  );
+};
+
+export default ItemQtyControl;

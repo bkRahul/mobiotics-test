@@ -2,12 +2,19 @@ import React from "react";
 import { ItemControls } from "./ItemControls/ItemControls";
 import ItemDesc from "./ItemDesc/ItemDesc";
 import ItemImg from "./ItemImg/ItemImg";
+import CartContext from "../../context/cart-context";
+import classes from "./Item.module.css";
 
 const Item = props => {
-  let item = props.items.map(item => {
+  return (
+    <div className="d-flex df-col">
+      <CartContext.Consumer>
+        {context =>
+context.items ? (
+  context.items.map(item => {
     return (
-      <div className="d-flex">
-        <ItemImg img={item.img} offer={item.offer} />
+      <div className={["d-flex", classes.Item].join(" ")} key={item.id}>
+        <ItemImg img={item.img} productName={item.productName} offer={item.offer} />
         <div>
           <ItemDesc
             bName={item.brandName}
@@ -16,13 +23,20 @@ const Item = props => {
             price={item.price}
             mrp={item.mrp}
           />
-          <ItemControls />
+          <ItemControls
+            addItem={() => context.addItem(item.id)}
+            removeItem={() => context.removeItem(item.id)}
+            itemCount={item.qty}
+          />
         </div>
       </div>
     );
-  });
-
-  return <div className="d-flex df-col">{item}</div>;
+  })
+) : "Loading"
+        }
+      </CartContext.Consumer>
+    </div>
+  );
 };
 
 export default Item;

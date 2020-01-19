@@ -4,7 +4,7 @@ import classes from "./ItemImg.module.css";
 const ItemImg = props => {
   return (
     <div className={classes.ImgContainer}>
-      <img src={props.img} className={classes.Img} />
+      <img src={props.img} alt={props.productName} className={classes.Img} />
       <span className={classes.Offer}>{props.offer}</span>
     </div>
   );
