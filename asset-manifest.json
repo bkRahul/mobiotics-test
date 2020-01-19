@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-tutorial/static/css/main.54eb7e57.chunk.css",
-    "main.js": "/react-tutorial/static/js/main.bfa6b488.chunk.js",
-    "main.js.map": "/react-tutorial/static/js/main.bfa6b488.chunk.js.map",
-    "runtime-main.js": "/react-tutorial/static/js/runtime-main.4a42324e.js",
-    "runtime-main.js.map": "/react-tutorial/static/js/runtime-main.4a42324e.js.map",
-    "static/js/2.214c3807.chunk.js": "/react-tutorial/static/js/2.214c3807.chunk.js",
-    "static/js/2.214c3807.chunk.js.map": "/react-tutorial/static/js/2.214c3807.chunk.js.map",
-    "index.html": "/react-tutorial/index.html",
-    "precache-manifest.9c881e70811e0fa9bde8312cfe74b30a.js": "/react-tutorial/precache-manifest.9c881e70811e0fa9bde8312cfe74b30a.js",
-    "service-worker.js": "/react-tutorial/service-worker.js",
-    "static/css/main.54eb7e57.chunk.css.map": "/react-tutorial/static/css/main.54eb7e57.chunk.css.map",
-    "static/js/2.214c3807.chunk.js.LICENSE": "/react-tutorial/static/js/2.214c3807.chunk.js.LICENSE"
+    "main.css": "/mobiotics-test/static/css/main.54eb7e57.chunk.css",
+    "main.js": "/mobiotics-test/static/js/main.909357bb.chunk.js",
+    "main.js.map": "/mobiotics-test/static/js/main.909357bb.chunk.js.map",
+    "runtime-main.js": "/mobiotics-test/static/js/runtime-main.5f030eb1.js",
+    "runtime-main.js.map": "/mobiotics-test/static/js/runtime-main.5f030eb1.js.map",
+    "static/js/2.214c3807.chunk.js": "/mobiotics-test/static/js/2.214c3807.chunk.js",
+    "static/js/2.214c3807.chunk.js.map": "/mobiotics-test/static/js/2.214c3807.chunk.js.map",
+    "index.html": "/mobiotics-test/index.html",
+    "precache-manifest.ed67b6dd36e81f5fdc8d87bc8f7c0165.js": "/mobiotics-test/precache-manifest.ed67b6dd36e81f5fdc8d87bc8f7c0165.js",
+    "service-worker.js": "/mobiotics-test/service-worker.js",
+    "static/css/main.54eb7e57.chunk.css.map": "/mobiotics-test/static/css/main.54eb7e57.chunk.css.map",
+    "static/js/2.214c3807.chunk.js.LICENSE": "/mobiotics-test/static/js/2.214c3807.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.4a42324e.js",
+    "static/js/runtime-main.5f030eb1.js",
     "static/js/2.214c3807.chunk.js",
     "static/css/main.54eb7e57.chunk.css",
-    "static/js/main.bfa6b488.chunk.js"
+    "static/js/main.909357bb.chunk.js"
   ]
 }
