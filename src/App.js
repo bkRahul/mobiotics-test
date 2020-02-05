@@ -17,7 +17,7 @@ class App extends Component {
   };
 
   componentDidMount() {
-    fetch("../../data/data.json")
+    fetch(`${process.env.PUBLIC_URL}/data/data.json`)
       .then(response => {
         return response.json();
       })
